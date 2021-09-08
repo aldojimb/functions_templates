@@ -1,0 +1,24 @@
+{
+  "name": "functions_templates",
+  "version": "1.0.0",
+  "description": "Sprint 1. Entrega 1",
+  "main": "apps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldojimb/functions_templates.git"
+  },
+  "keywords": [
+    "Functions",
+    "Template",
+    "literals"
+  ],
+  "author": "Aldo JB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aldojimb/functions_templates/issues"
+  },
+  "homepage": "https://github.com/aldojimb/functions_templates#readme"
+}
