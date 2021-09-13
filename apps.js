@@ -57,9 +57,6 @@ for (let i = 0; i<=9; i++){
     array_de_funciones[i]();
 }
 
-
-
-
 //- Exercici 2
 /*Crear una funció anònima autoinvocable (igualada a una variable) 
 que imprimeixi per pantalla el nom d'usuari rebut com a paràmetre */
