@@ -116,23 +116,9 @@ Invoqui la primera Promise getEmpleado i posteriorment getSalario, niant l'execu
 /*Nivell 3 - Exercici 1
 Fixi un element catch a la invocació de la fase anterior que capturi qualsevol error i l'imprimeixi per consola.*/
 
-getEmpleado(1)
-.then((res) => {
-    console.log(res.name) 
-})
-.catch((rejection) => {
-    console.log(rejection)
-});
+let indiceLlamaEmpleado = 2;
 
-getSalario(employees[0])
-.then((res2) => {
-    console.log(res2.salary) 
-})
-.catch((err) => {
-    console.log(err)
-});
-
-getEmpleado(1)
+getEmpleado(indiceLlamaEmpleado)
     .then((resolve1) => {
         return getSalario(resolve1)
     })
@@ -142,3 +128,5 @@ getEmpleado(1)
     .catch((errormessage) => {
         console.log(errormessage)
     });
+
+    module.exports = { getEmpleado, getSalario };
